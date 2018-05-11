@@ -1,0 +1,67 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/first/first",
+    "pages/second/second",
+    "pages/third/third"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "magicabc",
+    "navigationBarTextStyle":"black",
+    "navigationStyle":"default",
+    "backgroundColor":"#ffffff",
+    "backgroundColorTop":"#fff",
+    "backgroundColorBottom":"#fff",
+    "enablePullDownRefresh":false,
+    "onReachBottomDistance":50 
+  },
+  "tabBar":{
+    "color":"#111",
+    "selectedColor":"#eee",
+    "backgroundColor":"#999",
+    "borderStyle":"black",
+    "position":"bottom",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"tab1",
+        "iconPath":"",
+        "selectedIconPath":""
+      },
+      {
+        "pagePath": "pages/logs/logs", 
+        "text": "tab2",
+        "iconPath": "", 
+        "selectedIconPath": "" 
+      },
+      {
+        "pagePath": "pages/first/first",
+        "text": "tab3",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/second/second",
+        "text": "tab4",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/third/third",
+        "text": "tab5",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000,
+    "connectSocket":10000,
+    "uploadFile":10000 
+  },
+  "debug": true
+}
